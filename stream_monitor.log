@@ -1,0 +1,49 @@
+[2025-10-26 00:56:18.758] [SYSTEM] [StreamMonitor] === Stream Monitor initialized (OPTIMIZED) ===
+[2025-10-26 00:56:18.761] [SYSTEM] [StreamMonitor] Monitoring streamer: lydiaviolet
+[2025-10-26 00:56:18.761] [INFO] [StreamMonitor] Optimization features: Reusable CURL handle, Early termination, Adaptive intervals
+[2025-10-26 00:56:18.768] [SUCCESS] [StreamMonitor] cURL handle initialized with optimizations
+[2025-10-26 00:56:18.769] [SYSTEM] [StreamMonitor] Starting optimized monitoring loop
+[2025-10-26 00:56:18.770] [DEBUG] [StreamMonitor] Downloading page (optimized, max 97 KB)
+[2025-10-26 00:56:23.781] [ERROR] [StreamMonitor] cURL request failed: Timeout was reached
+[2025-10-26 00:56:23.784] [WARNING] [StreamMonitor] Could not download page, assuming stream is offline
+[2025-10-26 00:56:23.786] [DEBUG] [StreamMonitor] Sleeping for 30 seconds
+[2025-10-26 00:56:53.797] [DEBUG] [StreamMonitor] Downloading page (optimized, max 97 KB)
+[2025-10-26 00:56:54.051] [ERROR] [StreamMonitor] cURL request failed: SSL peer certificate or SSH remote key was not OK
+[2025-10-26 00:56:54.051] [WARNING] [StreamMonitor] Could not download page, assuming stream is offline
+[2025-10-26 00:56:54.053] [DEBUG] [StreamMonitor] Sleeping for 30 seconds
+[2025-10-26 00:57:24.065] [DEBUG] [StreamMonitor] Downloading page (optimized, max 97 KB)
+[2025-10-26 00:57:24.219] [ERROR] [StreamMonitor] cURL request failed: SSL peer certificate or SSH remote key was not OK
+[2025-10-26 00:57:24.220] [WARNING] [StreamMonitor] Could not download page, assuming stream is offline
+[2025-10-26 00:57:24.223] [DEBUG] [StreamMonitor] Sleeping for 30 seconds
+[2025-10-26 00:57:54.228] [DEBUG] [StreamMonitor] Downloading page (optimized, max 97 KB)
+[2025-10-26 00:57:54.435] [ERROR] [StreamMonitor] cURL request failed: SSL peer certificate or SSH remote key was not OK
+[2025-10-26 00:57:54.436] [WARNING] [StreamMonitor] Could not download page, assuming stream is offline
+[2025-10-26 00:57:54.438] [DEBUG] [StreamMonitor] Sleeping for 30 seconds
+[2025-10-26 01:01:07.652] [SYSTEM] [StreamMonitor] === Stream Monitor initialized (OPTIMIZED) ===
+[2025-10-26 01:01:07.653] [SYSTEM] [StreamMonitor] Monitoring streamer: lydiaviolet
+[2025-10-26 01:01:07.653] [INFO] [StreamMonitor] Optimization features: Reusable CURL handle, Early termination, Adaptive intervals
+[2025-10-26 01:01:07.655] [SUCCESS] [StreamMonitor] cURL handle initialized with optimizations
+[2025-10-26 01:01:07.655] [SYSTEM] [StreamMonitor] Starting optimized monitoring loop
+[2025-10-26 01:01:07.656] [DEBUG] [StreamMonitor] Downloading page (optimized, max 97 KB)
+[2025-10-26 01:01:08.021] [DEBUG] [StreamMonitor] HTTP 200, Downloaded 5 KB (marker found during download!)
+[2025-10-26 01:01:08.021] [INFO] [StreamMonitor] Stream ONLINE (found isLiveBroadcast)
+[2025-10-26 01:01:08.022] [EVENT] [StreamMonitor] Stream status changed: OFFLINE -> ONLINE (check duration: 365ms)
+[2025-10-26 01:01:08.024] [INFO] [StreamMonitor] Waiting 1420ms before opening browser
+[2025-10-26 01:01:09.463] [SUCCESS] [StreamMonitor] Opening stream in browser: https://www.twitch.tv/lydiaviolet
+[2025-10-26 01:01:09.586] [DEBUG] [StreamMonitor] Using FAST check interval (10s) - stream was recently online
+[2025-10-26 01:01:09.586] [DEBUG] [StreamMonitor] Sleeping for 10 seconds
+[2025-10-26 01:01:19.595] [DEBUG] [StreamMonitor] Downloading page (optimized, max 97 KB)
+[2025-10-26 01:01:19.742] [DEBUG] [StreamMonitor] HTTP 200, Downloaded 9 KB (marker found during download!)
+[2025-10-26 01:01:19.742] [INFO] [StreamMonitor] Stream ONLINE (found isLiveBroadcast)
+[2025-10-26 01:01:19.744] [DEBUG] [StreamMonitor] Using FAST check interval (10s) - stream was recently online
+[2025-10-26 01:01:19.745] [DEBUG] [StreamMonitor] Sleeping for 10 seconds
+[2025-10-26 01:01:29.756] [DEBUG] [StreamMonitor] Downloading page (optimized, max 97 KB)
+[2025-10-26 01:01:29.855] [DEBUG] [StreamMonitor] HTTP 200, Downloaded 12 KB (marker found during download!)
+[2025-10-26 01:01:29.855] [INFO] [StreamMonitor] Stream ONLINE (found isLiveBroadcast)
+[2025-10-26 01:01:29.856] [DEBUG] [StreamMonitor] Using FAST check interval (10s) - stream was recently online
+[2025-10-26 01:01:29.856] [DEBUG] [StreamMonitor] Sleeping for 10 seconds
+[2025-10-26 01:01:39.869] [DEBUG] [StreamMonitor] Downloading page (optimized, max 97 KB)
+[2025-10-26 01:01:41.852] [DEBUG] [StreamMonitor] HTTP 200, Downloaded 12 KB (marker found during download!)
+[2025-10-26 01:01:41.852] [INFO] [StreamMonitor] Stream ONLINE (found isLiveBroadcast)
+[2025-10-26 01:01:41.855] [DEBUG] [StreamMonitor] Using FAST check interval (10s) - stream was recently online
+[2025-10-26 01:01:41.855] [DEBUG] [StreamMonitor] Sleeping for 10 seconds
