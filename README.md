@@ -1,9 +1,8 @@
-# 🎥 Twitch Stream Monitor v2.0
+# 🎥 Twitch Stream Monitor
 
 [![C++](https://img.shields.io/badge/C++-17-blue.svg)](https://isocpp.org/)
 [![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20Linux%20%7C%20macOS-lightgrey.svg)](https://github.com)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
-[![Performance](https://img.shields.io/badge/performance-3x%20faster-brightgreen.svg)](README.md#performance)
 
 Автоматический мониторинг Twitch стримов с продвинутыми оптимизациями производительности. **Работает без API токенов** — просто укажите имя стримера и готово!
 
@@ -388,5 +387,6 @@ IMPLIED.
 [⬆ Наверх](#-twitch-stream-monitor-v20)
 
 </div>
+
 
 
