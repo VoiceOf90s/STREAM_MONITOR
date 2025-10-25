@@ -7,8 +7,6 @@
 
 Автоматический мониторинг Twitch стримов с продвинутыми оптимизациями производительности. **Работает без API токенов** — просто укажите имя стримера и готово!
 
-![Demo](https://via.placeholder.com/800x200/1a1a2e/ffffff?text=Stream+Monitor+Demo)
-
 ---
 
 ## ✨ Возможности
@@ -369,7 +367,7 @@ IMPLIED.
 
 - **GitHub Issues:** [Открыть Issue](https://github.com/VoiceOf90s/STREAM_MONITOR/issues)
 - **Email:** chtonibud86@gmail.com
-- **Discord:** Grimoire#1234
+- **Discord:** Grimoire#3798
 
 ---
 
@@ -390,4 +388,5 @@ IMPLIED.
 [⬆ Наверх](#-twitch-stream-monitor-v20)
 
 </div>
+
 
