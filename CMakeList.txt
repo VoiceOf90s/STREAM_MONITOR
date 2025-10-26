@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.15)
-project(TwitchStreamMonitor VERSION 2.1.0 LANGUAGES CXX)
+project(TwitchStreamMonitor VERSION 2.2.0 LANGUAGES CXX)
 
 # Установка стандарта C++
 set(CMAKE_CXX_STANDARD 17)
@@ -13,6 +13,9 @@ add_executable(stream_monitor
     main.cpp
     StreamMonitor.cpp
     Config.cpp
+    Notification.cpp
+    Statistics.cpp
+    MultiStreamMonitor.cpp
 )
 
 # Подключение заголовочных файлов
@@ -31,6 +34,10 @@ if(WIN32)
     target_link_libraries(stream_monitor PRIVATE ws2_32)
 endif()
 
+# Поддержка потоков
+find_package(Threads REQUIRED)
+target_link_libraries(stream_monitor PRIVATE Threads::Threads)
+
 # Дополнительные флаги компиляции
 if(MSVC)
     target_compile_options(stream_monitor PRIVATE /W4)
@@ -43,16 +50,16 @@ install(TARGETS stream_monitor DESTINATION bin)
 
 # Сообщение о конфигурации
 message(STATUS "═══════════════════════════════════════")
-message(STATUS "Twitch Stream Monitor v2.1")
+message(STATUS "Twitch Stream Monitor v2.2")
 message(STATUS "═══════════════════════════════════════")
 message(STATUS "  C++ Standard: ${CMAKE_CXX_STANDARD}")
 message(STATUS "  Build Type: ${CMAKE_BUILD_TYPE}")
 message(STATUS "  CURL Found: ${CURL_FOUND}")
 message(STATUS "  CURL Version: ${CURL_VERSION_STRING}")
 message(STATUS "")
-message(STATUS "  New in v2.1:")
-message(STATUS "    - Configuration file support")
-message(STATUS "    - HTTP/2 support")
-message(STATUS "    - DNS caching")
-message(STATUS "    - HEAD request pre-check")
+message(STATUS "  New in v2.2:")
+message(STATUS "    - Multi-streamer monitoring")
+message(STATUS "    - System notifications")
+message(STATUS "    - Statistics tracking")
+message(STATUS "    - WebSocket ready structure")
 message(STATUS "═══════════════════════════════════════")

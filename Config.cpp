@@ -111,6 +111,7 @@ bool Config::Save() {
     file << "open_browser=" << (GetBool("open_browser", true) ? "true" : "false") << std::endl;
     file << "browser_delay_min=" << GetInt("browser_delay_min", 800) << std::endl;
     file << "browser_delay_max=" << GetInt("browser_delay_max", 2000) << std::endl;
+    file << "auto_close_tab=" << (GetBool("auto_close_tab", true) ? "true" : "false") << std::endl;
     
     file.close();
     std::cout << "Configuration saved to '" << configFilePath << "'" << std::endl;
