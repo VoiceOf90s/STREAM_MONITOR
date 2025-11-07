@@ -16,7 +16,7 @@
 ### Шаг 1: Клонирование репозитория
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/VoiceOf90s/STREAM_MONITOR
 cd STREAM_MONITOR
 ```
 
@@ -143,3 +143,4 @@ cmake --build .
 ---
 
 **Создано с ❤️ для стримеров и их фанатов**
+
