@@ -47,3 +47,50 @@
 [2025-10-26 01:01:41.852] [INFO] [StreamMonitor] Stream ONLINE (found isLiveBroadcast)
 [2025-10-26 01:01:41.855] [DEBUG] [StreamMonitor] Using FAST check interval (10s) - stream was recently online
 [2025-10-26 01:01:41.855] [DEBUG] [StreamMonitor] Sleeping for 10 seconds
+[2025-10-26 15:35:11.270] [SYSTEM] [StreamMonitor] === Stream Monitor v2.2 initialized ===
+[2025-10-26 15:35:11.272] [SYSTEM] [StreamMonitor] Monitoring streamer: Nix
+[2025-10-26 15:35:11.272] [INFO] [StreamMonitor] Configuration loaded from: config.ini
+[2025-10-26 15:35:11.273] [INFO] [StreamMonitor] Features: HTTP/2=ON, HEAD=ON, Notifications=ON, Statistics=ON
+[2025-10-26 15:35:11.275] [SUCCESS] [StreamMonitor] HTTP/2 enabled
+[2025-10-26 15:35:11.275] [SUCCESS] [StreamMonitor] DNS cache timeout set to 300 seconds
+[2025-10-26 15:35:11.276] [SUCCESS] [StreamMonitor] cURL handle initialized with v2.2 optimizations
+[2025-10-26 15:35:11.276] [SYSTEM] [StreamMonitor] Starting monitoring loop (v2.2)
+[2025-10-26 15:35:21.285] [WARNING] [StreamMonitor] HEAD request failed: Timeout was reached
+[2025-10-26 15:35:22.389] [ERROR] [StreamMonitor] cURL request failed: Could not resolve hostname
+[2025-10-26 15:35:22.390] [WARNING] [StreamMonitor] Could not download page, assuming stream is offline
+[2025-10-26 15:35:52.404] [WARNING] [StreamMonitor] HEAD request failed: Could not resolve hostname
+[2025-10-26 15:35:52.405] [ERROR] [StreamMonitor] cURL request failed: Could not resolve hostname
+[2025-10-26 15:35:52.405] [WARNING] [StreamMonitor] Could not download page, assuming stream is offline
+[2025-10-26 15:37:30.702] [SYSTEM] [StreamMonitor] === Stream Monitor v2.2 initialized ===
+[2025-10-26 15:37:30.703] [SYSTEM] [StreamMonitor] Monitoring streamer: Nix
+[2025-10-26 15:37:30.703] [INFO] [StreamMonitor] Configuration loaded from: config.ini
+[2025-10-26 15:37:30.703] [INFO] [StreamMonitor] Features: HTTP/2=ON, HEAD=OFF, Notifications=ON, Statistics=ON
+[2025-10-26 15:37:30.705] [SUCCESS] [StreamMonitor] HTTP/2 enabled
+[2025-10-26 15:37:30.706] [SUCCESS] [StreamMonitor] DNS cache timeout set to 300 seconds
+[2025-10-26 15:37:30.706] [SUCCESS] [StreamMonitor] cURL handle initialized with v2.2 optimizations
+[2025-10-26 15:37:30.706] [SYSTEM] [StreamMonitor] Starting monitoring loop (v2.2)
+[2025-10-26 15:37:31.074] [INFO] [StreamMonitor] Stream ONLINE (found isLiveBroadcast)
+[2025-10-26 15:37:31.076] [EVENT] [StreamMonitor] Stream status changed: OFFLINE -> ONLINE (check: 363ms)
+[2025-10-26 15:37:31.644] [INFO] [StreamMonitor] Waiting 944ms before opening browser
+[2025-10-26 15:37:32.599] [SUCCESS] [StreamMonitor] Opening stream in browser: https://www.twitch.tv/Nix
+[2025-10-26 15:37:42.954] [INFO] [StreamMonitor] Stream ONLINE (found isLiveBroadcast)
+[2025-10-26 15:37:53.121] [INFO] [StreamMonitor] Stream ONLINE (found isLiveBroadcast)
+[2025-10-26 15:38:03.397] [INFO] [StreamMonitor] Stream ONLINE (found isLiveBroadcast)
+[2025-10-26 15:38:13.599] [INFO] [StreamMonitor] Stream ONLINE (found isLiveBroadcast)
+[2025-10-26 15:38:43.608] [ERROR] [StreamMonitor] cURL request failed: Timeout was reached
+[2025-10-26 15:38:43.608] [WARNING] [StreamMonitor] Could not download page, assuming stream is offline
+[2025-10-26 15:38:43.609] [EVENT] [StreamMonitor] Stream status changed: ONLINE -> OFFLINE (check: 20002ms)
+[2025-10-26 15:38:57.631] [INFO] [StreamMonitor] Stream ONLINE (found isLiveBroadcast)
+[2025-10-26 15:38:57.632] [EVENT] [StreamMonitor] Stream status changed: OFFLINE -> ONLINE (check: 3469ms)
+[2025-10-26 15:38:58.114] [INFO] [StreamMonitor] Waiting 1981ms before opening browser
+[2025-10-26 15:39:00.114] [SUCCESS] [StreamMonitor] Opening stream in browser: https://www.twitch.tv/Nix
+[2025-10-26 15:39:11.635] [INFO] [StreamMonitor] Stream ONLINE (found isLiveBroadcast)
+[2025-10-27 00:16:10.638] [SYSTEM] [StreamMonitor] === Stream Monitor v2.2 initialized ===
+[2025-10-27 00:16:10.640] [SYSTEM] [StreamMonitor] Monitoring streamer: Klaire
+[2025-10-27 00:16:10.640] [INFO] [StreamMonitor] Configuration loaded from: config.ini
+[2025-10-27 00:16:10.641] [INFO] [StreamMonitor] Features: HTTP/2=ON, HEAD=ON, Notifications=ON, Statistics=ON
+[2025-10-27 00:16:10.642] [SUCCESS] [StreamMonitor] HTTP/2 enabled
+[2025-10-27 00:16:10.642] [SUCCESS] [StreamMonitor] DNS cache timeout set to 300 seconds
+[2025-10-27 00:16:10.643] [SUCCESS] [StreamMonitor] cURL handle initialized with v2.2 optimizations
+[2025-10-27 00:16:10.643] [SYSTEM] [StreamMonitor] Starting monitoring loop (v2.2)
+[2025-10-27 00:16:10.968] [INFO] [StreamMonitor] Stream OFFLINE (no markers found)
