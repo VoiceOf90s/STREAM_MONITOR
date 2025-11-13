@@ -1,4 +1,4 @@
-#include "BrowserController.h"
+#include "core/BrowserController.h"
 #include "Constants.h"
 #include <iostream>
 

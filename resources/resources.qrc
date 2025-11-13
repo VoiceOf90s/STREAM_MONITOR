@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/">
+        <file>styles/dark_theme.qss</file>
+        <file>icons/app.ico</file>
+        <file>icons/online.png</file>
+        <file>icons/offline.png</file>
+        <file>icons/paused.png</file>
+    </qresource>
+</RCC>

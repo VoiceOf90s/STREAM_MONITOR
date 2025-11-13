@@ -7,17 +7,23 @@ build/
 *.dll
 *.so
 *.dylib
+*.a
+*.lib
 
 # Logs
 logs/
 *.log
 
-# Statistics
+# Statistics (личные данные)
 stats/
-*.json
+stats_*.json
 
-# Config (личные настройки)
-config/config.ini
+# Config (личные настройки в корне)
+config.ini
+streamers.txt
+# Примеры конфигурации в config/ можно коммитить
+# config/config.ini.example
+# config/streamers.txt.example
 
 # IDE
 .vscode/
@@ -25,13 +31,24 @@ config/config.ini
 *.swp
 *.swo
 *~
+*.user
+*.suo
+*.sln.docstates
 
 # OS
 .DS_Store
 Thumbs.db
+desktop.ini
 
 # CMake
 CMakeCache.txt
 CMakeFiles/
 cmake_install.cmake
 Makefile
+*.cmake
+!CMakeLists.txt
+
+# Временные файлы
+*.tmp
+*.bak
+*.cache
